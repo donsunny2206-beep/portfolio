@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Don Sunny - Full-Stack Developer, Python, Java & Linux Engineer Portfolio.">
+    <title>Don Sunny | Software & Systems Architect Portfolio</title>
+    
+    <!-- Google Fonts: Playfair Display, Poppins, Fira Code, Alex Brush -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fira+Code:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STARTUP PRELOADER ANIMATION -->
+    <div class="preloader-overlay" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo-wrapper">
+                <svg class="preloader-logo-svg" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" class="logo-circle-bg"></circle>
+                    <text x="50" y="62" text-anchor="middle" class="logo-text-svg">DS</text>
+                </svg>
+            </div>
+            <div class="preloader-text-wrapper">
+                <span class="preloader-title">DON SUNNY PORTFOLIO</span>
+                <div class="preloader-bar-bg">
+                    <div class="preloader-bar-fill" id="preloader-bar"></div>
+                </div>
+                <span class="preloader-status" id="preloader-status">INITIALIZING LINUX KERNEL & SYSTEM MODULES...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Background Ambience Grid -->
+    <div class="grid-lines-overlay"></div>
+
+    <!-- Navigation Header -->
+    <header class="header-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo magnetic">
+                <span class="logo-badge-icon">DS</span>
+                <span class="logo-name-full">DON SUNNY<span class="gold-dot">.</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link magnetic">Home</a>
+                <a href="#projects" class="nav-link magnetic">Projects</a>
+                <a href="#process" class="nav-link magnetic">Process</a>
+                <a href="#skills-terminal" class="nav-link magnetic">Skill Matrix</a>
+                <a href="#tools" class="nav-link magnetic">Tools</a>
+                <a href="#contact" class="nav-link magnetic">Contact</a>
+            </nav>
+            <div class="header-tag">Creative Portfolio</div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: HERO HEADER (IMAGE-FREE GIANT TYPOGRAPHY HERO) -->
+        <section class="hero-section-karimi" id="hero">
+            <div class="hero-bg-overlay"></div>
+            
+            <div class="karimi-hero-canvas">
+                <!-- TOP TICKER PILL BANNER -->
+                <div class="top-ticker-pill">
+                    <div class="ticker-text">
+                        PYTHON SYSTEMS DEVELOPMENT &nbsp;•&nbsp; JAVA ENTERPRISE ARCHITECTURE &nbsp;•&nbsp; LINUX KERNEL MANAGEMENT &nbsp;•&nbsp; CLOUD INFRASTRUCTURE &nbsp;•&nbsp; LOW-LATENCY MICROSERVICES
+                    </div>
+                </div>
+
+                <!-- TOP ROW INFO -->
+                <div class="hero-top-info-row">
+                    <div class="top-info-left">
+                        <h1 class="hero-brand-name">DON SUNNY</h1>
+                        <p class="hero-brand-sub">Software & Systems Specialist</p>
+                    </div>
+
+                    <div class="top-info-right">
+                        <p class="slogan-line1">Engineering that scales.</p>
+                        <p class="slogan-line2">Code that converts.</p>
+                    </div>
+                </div>
+
+                <!-- MOTION GRAPHIC CENTER HERO LAYER (GIANT NAME TYPOGRAPHY - NO IMAGE) -->
+                <div class="hero-editorial-center" id="hero-motion-graphic">
+                    <div class="giant-word-layer">
+                        <h2 class="giant-name-text">DON SUNNY</h2>
+                        <span class="giant-subname-text">CREATIVE ARCHITECT</span>
+                    </div>
+                </div>
+
+                <!-- OVERLAYED BOTTOM RIGHT ROLE -->
+                <div class="hero-bottom-role-box">
+                    <h3 class="role-title">SOFTWARE ENGINEER</h3>
+                    <p class="role-sub">SYSTEMS ARCHITECT</p>
+                </div>
+
+                <!-- OVERLAYED BOTTOM LEFT SOCIAL BADGES -->
+                <div class="hero-bottom-socials">
+                    <a href="https://www.linkedin.com/in/don-sunny-b6b359381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-badge-pill magnetic">
+                        <span class="badge-icon">IN</span> LinkedIn Profile
+                    </a>
+                    <a href="mailto:donsunny2206@gmail.com" class="social-badge-pill magnetic">
+                        <span class="badge-icon">@</span> donsunny2206@gmail.com
+                    </a>
+                </div>
+
+                <!-- BOTTOM EDITORIAL DESCRIPTION BANNER -->
+                <div class="hero-bottom-quote-banner">
+                    <p class="quote-banner-text">
+                        "Between creativity and strategy lies the space where I code. From architecting distributed systems to shaping high-throughput backends, my work revolves around clarity, structure, and low-latency performance."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: SELECTED TECH PROJECTS (MINIMALIST & IMAGE-FREE CARDS) -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header-flex">
+                    <h2 class="section-title-serif">
+                        Tech Projects <span class="gold-plus">+</span>
+                    </h2>
+                    <a href="#contact" class="view-all-link magnetic">
+                        Contact Me <span class="gold-arrow">→</span>
+                    </a>
+                </div>
+
+                <!-- Featured Project Cards Grid (Minimalist & Image-Free) -->
+                <div class="featured-projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card-clean tilt-card">
+                        <div class="card-glow-border"></div>
+                        <div class="project-card-header">
+                            <span class="project-num-badge">01</span>
+                            <span class="project-status-dot">● ACTIVE PIPELINE</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title-italic">Neural Execution Pipeline</h3>
+                            <p class="project-description">Distributed Python GPU cluster orchestrator designed for real-time neural network inference, asynchronous telemetry streaming, and dynamic CUDA memory pool allocation.</p>
+                            <div class="project-pills">
+                                <span class="pill">Python</span>
+                                <span class="pill">PyTorch</span>
+                                <span class="pill">CUDA</span>
+                                <span class="pill">Distributed Systems</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card-clean tilt-card">
+                        <div class="card-glow-border"></div>
+                        <div class="project-card-header">
+                            <span class="project-num-badge">02</span>
+                            <span class="project-status-dot">● KERNEL READY</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title-italic">Linux Kernel Monitoring OS</h3>
+                            <p class="project-description">Low-level Linux system management suite featuring eBPF kernel tracing, automated systemd daemon profiling, process isolation, and custom Bash administrative automation.</p>
+                            <div class="project-pills">
+                                <span class="pill">Linux Management</span>
+                                <span class="pill">Python</span>
+                                <span class="pill">Bash / Shell</span>
+                                <span class="pill">eBPF Tracing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card-clean tilt-card">
+                        <div class="card-glow-border"></div>
+                        <div class="project-card-header">
+                            <span class="project-num-badge">03</span>
+                            <span class="project-status-dot">● HIGH THROUGHPUT</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title-italic">Quantum High-Frequency Engine</h3>
+                            <p class="project-description">Ultra-low latency microservice architecture built in Java with Spring Boot, lock-free ring buffer concurrency, and zero-GC memory allocation for high-frequency financial telemetry.</p>
+                            <div class="project-pills">
+                                <span class="pill">Java</span>
+                                <span class="pill">Spring Boot</span>
+                                <span class="pill">Low-Latency</span>
+                                <span class="pill">WebSockets</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Footer Project Cards Row -->
+                <div class="projects-footer-row">
+                    <div class="thumb-card-clean magnetic">
+                        <span class="thumb-num">04</span>
+                        <div class="thumb-info">
+                            <span class="thumb-title-italic">Cybersec Threat Matrix</span>
+                            <span class="thumb-sub">Zero-Trust Network Protocol</span>
+                        </div>
+                    </div>
+                    <div class="thumb-card-clean magnetic">
+                        <span class="thumb-num">05</span>
+                        <div class="thumb-info">
+                            <span class="thumb-title-italic">Docker Cluster Admin</span>
+                            <span class="thumb-sub">Container Auto-Scaling</span>
+                        </div>
+                    </div>
+                    <div class="thumb-card-clean magnetic">
+                        <span class="thumb-num">06</span>
+                        <div class="thumb-info">
+                            <span class="thumb-title-italic">Kafka Event Stream</span>
+                            <span class="thumb-sub">Asynchronous Ingestion</span>
+                        </div>
+                    </div>
+                    <div class="thumb-card-clean magnetic">
+                        <span class="thumb-num">07</span>
+                        <div class="thumb-info">
+                            <span class="thumb-title-italic">Auto Infra Benchmark</span>
+                            <span class="thumb-sub">Linux Performance Suite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: MY PROCESS -->
+        <section class="process-section" id="process">
+            <div class="container">
+                <div class="process-grid">
+                    <!-- Left Column: Ordered List -->
+                    <div class="process-left-col">
+                        <h2 class="section-title-serif mb-large">
+                            My Process <span class="gold-plus">+</span>
+                        </h2>
+                        <ul class="process-list">
+                            <li class="process-item active" data-step="01">
+                                <div class="step-header">
+                                    <span class="step-num">01</span>
+                                    <span class="step-title-italic">Discover</span>
+                                </div>
+                                <p class="step-desc">Analyzing technical architecture requirements, defining system performance benchmarks, and planning scalable infrastructure.</p>
+                            </li>
+                            <li class="process-item" data-step="02">
+                                <div class="step-header">
+                                    <span class="step-num">02</span>
+                                    <span class="step-title-italic">Define</span>
+                                </div>
+                                <p class="step-desc">Architecting robust data models, designing low-latency Java/Python API interfaces, and configuring Linux security environments.</p>
+                            </li>
+                            <li class="process-item" data-step="03">
+                                <div class="step-header">
+                                    <span class="step-num">03</span>
+                                    <span class="step-title-italic">Design</span>
+                                </div>
+                                <p class="step-desc">Crafting high-precision frontend dashboards, editorial dark-mode aesthetics, responsive components, and fluid micro-interactions.</p>
+                            </li>
+                            <li class="process-item" data-step="04">
+                                <div class="step-header">
+                                    <span class="step-num">04</span>
+                                    <span class="step-title-italic">Develop</span>
+                                </div>
+                                <p class="step-desc">Writing clean, multi-threaded code in Python & Java, automating Linux deployment pipelines, and optimizing memory footprints.</p>
+                            </li>
+                            <li class="process-item" data-step="05">
+                                <div class="step-header">
+                                    <span class="step-num">05</span>
+                                    <span class="step-title-italic">Deliver</span>
+                                </div>
+                                <p class="step-desc">Conducting automated stress testing, containerized deployment, performance tuning, and continuous uptime monitoring.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Column: Circular Central Motif -->
+                    <div class="process-right-col">
+                        <div class="process-circle-wrapper">
+                            <div class="process-circle-outer"></div>
+                            <div class="process-circle-inner">
+                                <div class="floral-graphic-center"></div>
+                                <p class="circle-quote">"A thoughtful process for meaningful results."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: LINUX TERMINAL SKILL MATRIX -->
+        <section class="terminal-skills-section" id="skills-terminal">
+            <div class="container">
+                <div class="section-header-flex">
+                    <h2 class="section-title-serif">
+                        Skill Matrix <span class="gold-plus">[Linux Terminal]</span>
+                    </h2>
+                    <span class="terminal-badge-tag">BASH / ZSH ENVIRONMENT</span>
+                </div>
+
+                <!-- Linux Terminal Interactive Window -->
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <div class="terminal-title">don@linux-workstation:~ (bash)</div>
+                        <div class="terminal-actions">
+                            <span class="term-status-online">● SYSTEM ONLINE</span>
+                        </div>
+                    </div>
+
+                    <div class="terminal-body" id="terminal-output">
+                        <div class="term-line">
+                            <span class="term-user">don@dev-box</span>:<span class="term-dir">~</span>$ <span class="term-cmd">./plot_skills.sh --all --color-theme=gold</span>
+                        </div>
+                        <div class="term-line term-sub">
+                            [+] Initializing System Matrix... Loading Python, Java, Linux Management modules.
+                        </div>
+                        
+                        <!-- Terminal Skill Bars -->
+                        <div class="terminal-skills-container">
+
+                            <!-- Skill 1: Python -->
+                            <div class="skill-term-row">
+                                <div class="skill-term-info">
+                                    <span class="skill-name">Python Systems & Automation</span>
+                                    <span class="skill-perc">92%</span>
+                                </div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-ascii-bar" style="width: 92%;">
+                                        <span class="bar-fill-text">[██████████████████████░░]</span>
+                                    </div>
+                                </div>
+                                <div class="skill-tags-term">
+                                    <span>FastAPI</span> • <span>PyTorch</span> • <span>AsyncIO</span> • <span>Scripting</span> • <span>Data Pipelines</span>
+                                </div>
+                            </div>
+
+                            <!-- Skill 2: Java -->
+                            <div class="skill-term-row">
+                                <div class="skill-term-info">
+                                    <span class="skill-name">Java Enterprise & Microservices</span>
+                                    <span class="skill-perc">88%</span>
+                                </div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-ascii-bar" style="width: 88%;">
+                                        <span class="bar-fill-text">[████████████████████░░░░]</span>
+                                    </div>
+                                </div>
+                                <div class="skill-tags-term">
+                                    <span>Spring Boot</span> • <span>JVM Tuning</span> • <span>Multithreading</span> • <span>REST APIs</span> • <span>WebSockets</span>
+                                </div>
+                            </div>
+
+                            <!-- Skill 3: Linux Management -->
+                            <div class="skill-term-row">
+                                <div class="skill-term-info">
+                                    <span class="skill-name">Linux System Management & Kernel</span>
+                                    <span class="skill-perc">96%</span>
+                                </div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-ascii-bar" style="width: 96%;">
+                                        <span class="bar-fill-text">[███████████████████████░]</span>
+                                    </div>
+                                </div>
+                                <div class="skill-tags-term">
+                                    <span>RHEL/Debian Admin</span> • <span>Systemd</span> • <span>eBPF</span> • <span>Bash Scripting</span> • <span>Hardening</span>
+                                </div>
+                            </div>
+
+                            <!-- Skill 4: Web UI/UX Architecture -->
+                            <div class="skill-term-row">
+                                <div class="skill-term-info">
+                                    <span class="skill-name">UI/UX & Modern Web Systems</span>
+                                    <span class="skill-perc">90%</span>
+                                </div>
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-ascii-bar" style="width: 90%;">
+                                        <span class="bar-fill-text">[█████████████████████░░░]</span>
+                                    </div>
+                                </div>
+                                <div class="skill-tags-term">
+                                    <span>HTML5 / CSS3</span> • <span>GSAP Animations</span> • <span>Responsive Layouts</span> • <span>Figma</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Interactive Terminal Command Input Prompt -->
+                        <div class="term-input-line">
+                            <span class="term-user">don@dev-box</span>:<span class="term-dir">~</span>$&nbsp;
+                            <input type="text" id="term-input" placeholder="type command (e.g. 'help', 'fetch', 'sysinfo', 'clear')..." autocomplete="off">
+                        </div>
+                    </div>
+
+                    <!-- Preset Command Buttons -->
+                    <div class="terminal-quick-btns">
+                        <span class="quick-label">QUICK COMMANDS:</span>
+                        <button class="term-btn magnetic" data-cmd="./sysinfo">./sysinfo</button>
+                        <button class="term-btn magnetic" data-cmd="./list_tools">./list_tools</button>
+                        <button class="term-btn magnetic" data-cmd="cat contact.json">cat contact.json</button>
+                        <button class="term-btn magnetic" data-cmd="clear">clear</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: TOOLS I USE -->
+        <section class="tools-section" id="tools">
+            <div class="container">
+                <div class="section-header-flex">
+                    <h2 class="section-title-serif">
+                        Tools I Use <span class="gold-plus">+</span>
+                    </h2>
+                </div>
+
+                <div class="tools-grid">
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">F</div>
+                        <span class="tool-name">Figma</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">Py</div>
+                        <span class="tool-name">Python</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">Jv</div>
+                        <span class="tool-name">Java</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">Lx</div>
+                        <span class="tool-name">Linux Admin</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">W</div>
+                        <span class="tool-name">Webflow</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">F</div>
+                        <span class="tool-name">Framer</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">N</div>
+                        <span class="tool-name">Notion</span>
+                    </div>
+                    <div class="tool-card magnetic">
+                        <div class="tool-icon-badge">#</div>
+                        <span class="tool-name">Slack</span>
+                    </div>
+                </div>
+
+                <div class="tools-footer">
+                    <span class="gold-more-text">& MORE GREAT TOOLS</span>
+                    <div class="gold-accent-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: FOOTER & CALL TO ACTION -->
+        <footer class="footer-section" id="contact">
+            <div class="footer-bg-blend"></div>
+            <div class="footer-floral-overlay"></div>
+
+            <div class="container">
+                <div class="footer-main-grid">
+                    <!-- Top Left -->
+                    <div class="footer-col-left">
+                        <h2 class="footer-headline-serif">Let's Create Something</h2>
+                        <span class="footer-script-text">Amazing</span>
+                    </div>
+
+                    <!-- Top Middle -->
+                    <div class="footer-col-middle">
+                        <div class="status-indicator">
+                            <span class="status-dot"></span>
+                            <span class="status-text">I'M CURRENTLY OPEN FOR NEW PROJECTS</span>
+                        </div>
+                        <p class="footer-desc">
+                            Have a vision in mind or need an expert Software Engineer & Systems Architect? Let's build a powerful digital product together.
+                        </p>
+                        <a href="mailto:donsunny2206@gmail.com" class="cta-message-btn magnetic">
+                            <span>SEND ME A MESSAGE</span>
+                            <span class="gold-star">✦</span>
+                        </a>
+                    </div>
+
+                    <!-- Top Right -->
+                    <div class="footer-col-right">
+                        <div class="contact-info-list">
+                            <div class="contact-item">
+                                <span class="contact-label">EMAIL</span>
+                                <a href="mailto:donsunny2206@gmail.com" class="contact-value">donsunny2206@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">PHONE</span>
+                                <a href="tel:+919074358183" class="contact-value">+91 9074358183</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">LOCATION</span>
+                                <span class="contact-value">Mananthavady, Wayanad, Kerala, India</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">LINKEDIN</span>
+                                <a href="https://www.linkedin.com/in/don-sunny-b6b359381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-value">Don Sunny LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final Monogram Column -->
+                    <div class="footer-col-photo">
+                        <div class="footer-monogram-frame">
+                            <span class="footer-monogram-text">DS</span>
+                            <span class="footer-monogram-sub">DON SUNNY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Centered Footer Text -->
+                <div class="footer-bottom-bar">
+                    <div class="footer-divider-line"></div>
+                    <p class="thank-you-text">THANK YOU FOR VISITING ✦</p>
+                    <p class="copyright-text">&copy; 2026 Don Sunny. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Libraries: GSAP, ScrollTrigger, VanillaTilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
